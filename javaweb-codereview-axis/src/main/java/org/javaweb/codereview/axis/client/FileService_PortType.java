@@ -1,0 +1,15 @@
+/**
+ * FileService_PortType.java
+ * <p>
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package org.javaweb.codereview.axis.client;
+
+public interface FileService_PortType extends java.rmi.Remote {
+
+	public java.lang.String readFile(java.lang.String path) throws java.rmi.RemoteException;
+
+	public java.lang.String writeFile(java.lang.String path, java.lang.String content) throws java.rmi.RemoteException;
+}
