@@ -60,10 +60,32 @@
             <version>2.6</version>
         </dependency>
 
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.frohoff</groupId>
+            <artifactId>ysoserial</artifactId>
+            <version>0.0.5</version>
+        </dependency>
+
     </dependencies>
 
-    <build>
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
 
-    </build>
+        <repository>
+            <id>mulesoft</id>
+            <name>mulesoft</name>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
 
 </project>
