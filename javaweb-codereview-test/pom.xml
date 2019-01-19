@@ -67,6 +67,12 @@
         </dependency>
 
         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.45</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.github.frohoff</groupId>
             <artifactId>ysoserial</artifactId>
             <version>0.0.5</version>
