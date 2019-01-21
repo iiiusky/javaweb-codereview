@@ -44,7 +44,7 @@ public class FreemarkerTemplateConfig {
 	 * @return
 	 */
 	private Map<String, Object> getFreemarkerVariables() {
-		Map<String, Object> freemarkerVariables = new HashMap<>();
+		Map<String, Object> freemarkerVariables = new HashMap<String, Object>();
 
 		return freemarkerVariables;
 	}

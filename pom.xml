@@ -12,6 +12,7 @@
 
     <modules>
         <module>javaweb-codereview-test</module>
+        <module>javaweb-codereview-spring</module>
         <module>javaweb-codereview-struts2</module>
         <module>javaweb-codereview-axis</module>
         <module>javaweb-codereview-agent</module>

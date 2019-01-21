@@ -27,12 +27,14 @@ public class SysUser implements Serializable {
 	 * 用户名
 	 */
 	@JSONField(name = "username")
+	@Column(name = "username", unique = true, nullable = false)
 	private String username;
 
 	/**
 	 * 用户密码
 	 */
 	@JSONField(name = "password")
+	@Column(name = "password", nullable = false)
 	private String password;
 
 	/**
